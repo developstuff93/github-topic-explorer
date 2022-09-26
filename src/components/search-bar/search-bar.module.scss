@@ -1,0 +1,19 @@
+.root {
+  margin-bottom: 1rem;
+  width: 100%;
+
+  .search {
+    padding: 0.25rem;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+  }
+
+  .submit {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    height: 2.625rem;
+    width: 5rem;
+  }
+}
