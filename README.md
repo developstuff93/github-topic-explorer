@@ -35,3 +35,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * Save the Github API key created from the above in `.env` file as `REACT_APP_GITHUB_API_TOKEN`. (`.env.local` or others also work)
 * Run this command for installing and running the app. `yarn install && yarn start`
+* Here is the demo deployed on heroku - https://github-topic-explorer-jose.herokuapp.com/ 
