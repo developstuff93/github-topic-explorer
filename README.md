@@ -33,5 +33,5 @@ Best of luck
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* Save the Github API key created from the above in `.env` file. (`.env.local` or others also work)
+* Save the Github API key created from the above in `.env` file as `REACT_APP_GITHUB_API_TOKEN`. (`.env.local` or others also work)
 * Run this command for installing and running the app. `yarn install && yarn start`
