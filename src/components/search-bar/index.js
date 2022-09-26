@@ -1,4 +1,3 @@
-import _debounce from "lodash/debounce";
 import { useState } from "react";
 import { useAppState } from "../../hooks/AppStateProvider";
 import { MIN_TERM_LENGTH } from "../../utils/constant";
