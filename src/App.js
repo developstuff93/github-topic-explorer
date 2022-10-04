@@ -1,7 +1,7 @@
 import { ApolloProvider } from "@apollo/client";
 import AppStateProvider from "./hooks/AppStateProvider";
 import Users from "./components/users";
-import Header from "./components/header";
+// import Header from "./components/header";
 import { createApolloClient } from "./utils/create-apollo-client";
 import styles from "./App.module.scss";
 import Topics from "./components/topics";
@@ -13,7 +13,8 @@ function App() {
     <ApolloProvider client={apolloClient}>
       <AppStateProvider>
         <div className={styles.root}>
-          <Header />
+          {/* hide for now */}
+          {/* <Header /> */}
           <div className={styles.main}>
             <div className={styles.navbar}>
               <Topics />

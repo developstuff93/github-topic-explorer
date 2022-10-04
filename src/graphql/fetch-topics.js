@@ -18,9 +18,6 @@ export const GET_RELATED_TOPICS = gql`
 export const GET_TOPIC_STARGAZERS = gql`
   query getTopicStargazers($topic: String!, $limit: Int!) {
     topic(name: $topic) {
-      id
-      name
-      stargazerCount
       stargazers(first: $limit) {
         totalCount
         nodes {

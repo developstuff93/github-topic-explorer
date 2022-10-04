@@ -1,5 +1,4 @@
 import cx from "classnames";
-import { useState } from "react";
 import { useAppState } from "../../hooks/AppStateProvider";
 import SearchBar from "../search-bar";
 import styles from "./topics.module.scss";
@@ -34,7 +33,7 @@ export default function Topics() {
 
   return (
     <>
-      <h2>Topics ({term})</h2>
+      <h2>GitHub Topic ({term})</h2>
       <SearchBar />
       <ul className={styles.topics}>{renderBody()}</ul>
     </>

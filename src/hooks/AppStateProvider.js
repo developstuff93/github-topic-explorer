@@ -38,6 +38,7 @@ export default function AppStateProvider({ children }) {
             count: topic.stargazerCount,
           })),
         ];
+        selectTopic(mainTopic);
         setTopics(newTopics);
       },
       onError: () => {
